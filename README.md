@@ -15,7 +15,7 @@ Seguem as intruções básicas para envio dos trabalhos,
       1. Linux: https://www.tecmundo.com.br/atalho/1982-comandos-basicos-do-linux.htm
       1. Ambos: https://tutorial.djangogirls.org/pt/intro_to_command_line/
   1. Clonar o repositório da disciplina
-      1. Executar o comando ```git clone https://github.com/meta-sistemas-2017/linguagem-programacao-2.git```.
+      1. Executar o comando ```git clone https://github.com/meta-sistemas-2017/linguagem-programacao-2-3.git```.
       1. O git vai pedir usuário e senha, o mesmo criado no github
       1. O comando vai criar uma pasta com o nome ```linguagem-programacao-2```.
       1. Explore a pasta, veja o conteúdo.
