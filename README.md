@@ -29,7 +29,7 @@ Seguem as intruções básicas para envio dos trabalhos,
       1. ```git push origin master```
       1. O git vai pedir usuário e senha, o mesmo criado no github
   1. Verificar se foi enviado
-      1. Entrar no endereço do repositório ( https://github.com/meta-sistemas-2017/linguagem-programacao-2/commits/master ), e visualizar o seu commit
+      1. Entrar no endereço do repositório ( https://github.com/meta-sistemas-2017/linguagem-programacao-2-3/commits/master ), e visualizar o seu commit
 
 ## Material de Apoio
   - https://www.dropbox.com/s/pd880jagfw982j7/Controle%20de%20Vers%C3%A3o%20de%20Software%20com%20Git.pdf?dl=0
