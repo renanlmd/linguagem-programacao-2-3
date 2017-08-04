@@ -35,7 +35,21 @@ Seguem as intruções básicas para envio dos trabalhos,
       1. Entrar no endereço do repositório ( https://github.com/meta-sistemas-2017/linguagem-programacao-2-3/commits/master ), e visualizar o seu commit
   1. Como Executar os exemplos
       1. ```php aula-1/foreach/professor-paulo.php```
+## Acesso ao repositório
+### É necessário aceitar o convite no email (o github te envia 2 emails, um pra voc confirmar sua conta e outro pra aceitar o acesso no repositório).
+Quem não estiver na listagem abaixo, favor entrar em contato, ou deixar algum comentário aqui no repositório.
+O convite já foi enviado para:
 
+Usuário | Situação
+------- | --------
+https://github.com/RRodrigoRamos | confirmação pendente no email
+https://github.com/renanln | confirmação pendente no email
+https://github.com/alexclei | confirmação pendente no email
+https://github.com/erikagato | confirmação pendente no email
+https://github.com/MatheusSerra | confirmação pendente no email
+https://github.com/dutraweslley | confirmaço pendente no email
+https://github.com/CodEw47 | confirmação pendente no email
+https://github.com/joasribeiro | OK :+1:
 ## Material de Apoio
   - https://www.dropbox.com/s/pd880jagfw982j7/Controle%20de%20Vers%C3%A3o%20de%20Software%20com%20Git.pdf?dl=0
 ## FAQ ( Dúvidas )
