@@ -36,7 +36,7 @@ Seguem as intruções básicas para envio dos trabalhos,
   1. Como Executar os exemplos
       1. ```php aula-1/foreach/professor-paulo.php```
 ## Acesso ao repositório
-### É necessário aceitar o convite no email (o github te envia 2 emails, um pra voc confirmar sua conta e outro pra aceitar o acesso no repositório).
+### É necessário aceitar o convite no email (o github te envia 2 emails, um pra você confirmar sua conta e outro pra aceitar o acesso no repositório).
 Quem não estiver na listagem abaixo, favor entrar em contato, ou deixar algum comentário aqui no repositório.
 O convite já foi enviado para:
 
