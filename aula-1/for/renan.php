@@ -1,13 +1,11 @@
 <?php 
 
-$num1 = 2;
-$num2 = 5;
+$num = 2;
 echo "Soma:<br>";
 for($i=1; $i<=10; $i++){
 	
 	$soma = $num1 + $i;
 	echo "$num1 + $i = $soma<br>";	
-	
 	
 }
 echo "<br>Multiplicação:<br>";
