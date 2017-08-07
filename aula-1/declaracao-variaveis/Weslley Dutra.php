@@ -18,6 +18,7 @@
 $cidade = "Macapá";
 $_estado = "Amapá";
 $__bairro = "Centro";
+$_endereco = "rua das cidades"
 $cep = 68908000;
 
 $array = [110, 250, 840];
@@ -25,6 +26,7 @@ $array = [110, 250, 840];
 echo "$cidade\n";
 echo "$_estado\n";
 echo "$__bairro\n";
+echo "$__endereco\n";
 echo "$cep\n";
 
 #Acessando o item na posição 0 = 110
