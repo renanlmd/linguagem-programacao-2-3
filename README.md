@@ -50,7 +50,7 @@ https://github.com/MatheusSerra | confirmação pendente no email
 https://github.com/dutraweslley | confirmaço pendente no email
 https://github.com/CodEw47 | OK :+1:
 https://github.com/joasribeiro | OK :+1:
-https://github.com/VitorHugoSilva | confirmação pendente no email
+https://github.com/VitorHugoSilva | OK :+1:
 https://github.com/gehnobre18 | OK :+1:
 ## Material de Apoio
   - https://www.dropbox.com/s/pd880jagfw982j7/Controle%20de%20Vers%C3%A3o%20de%20Software%20com%20Git.pdf?dl=0
