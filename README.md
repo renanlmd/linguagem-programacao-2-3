@@ -43,7 +43,7 @@ O convite já foi enviado para:
 Usuário | Situação
 ------- | --------
 https://github.com/RRodrigoRamos | confirmação pendente no email
-https://github.com/renanlmd | confirmação pendente no email
+https://github.com/renanlmd | OK :+1:
 https://github.com/alexclei | OK :+1:
 https://github.com/erikagato | confirmação pendente no email
 https://github.com/MatheusSerra | confirmação pendente no email
