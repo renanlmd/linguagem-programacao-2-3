@@ -8,11 +8,11 @@ $local = 'Faculdade';
 
 if($local == 'Faculdade') {
 
-	echo "Estamos na faculdade\n";
+	echo "Estamos em aula\n";
 
 } else {
 
-	echo "Não estamos na faculdade\n";
+	echo "fim da aula\n";
 
 }
 

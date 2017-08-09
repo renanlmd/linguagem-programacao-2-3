@@ -15,4 +15,3 @@ if($local == 'Faculdade') {
 	echo "Não estamos na faculdade\n";
 
 }
-
