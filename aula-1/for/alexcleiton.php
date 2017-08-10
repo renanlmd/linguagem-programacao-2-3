@@ -1,7 +1,7 @@
 <?php
-	echo "Primeiramente.... Olá mundo!<br>";
-	echo "Segundamente.... Bolsonaro 2018!<br><br>"; 
+	echo "Primeiramente.... Olá mundo!";
+	echo "\nSegundamente.... Bolsonaro 2018!\n"; 
 	for ($i=0; $i < 10 ; $i++) { 
-		echo "<br>'$i' tentativas\n";
+		echo "'$i' tentativas\n";
 	}
 ?>
