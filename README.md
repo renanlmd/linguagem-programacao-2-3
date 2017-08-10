@@ -53,6 +53,7 @@ https://github.com/joasribeiro | OK :+1:
 https://github.com/VitorHugoSilva | OK :+1:
 https://github.com/gehnobre18 | OK :+1:
 ## Material de Apoio
+  - http://br.phptherightway.com/
   - https://www.dropbox.com/s/pd880jagfw982j7/Controle%20de%20Vers%C3%A3o%20de%20Software%20com%20Git.pdf?dl=0
 ## FAQ ( Dúvidas )
   - Whatsapp: 96991424429 ( Professor Paulo )
