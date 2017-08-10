@@ -8,3 +8,4 @@ $homem = new Homem();
 
 var_dump($homem);
 $homem->comer();
+echo "\n";
