@@ -1,5 +1,5 @@
 <?php
-$a="Hello Word !!! <br>";
+$a="Hello Word !!! \n";
 $i=0;
 
 while($i<=10){
