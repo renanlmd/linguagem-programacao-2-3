@@ -172,3 +172,24 @@ Crie, como subclasse de Retangulo, uma classe de nome Quadrado cujas instâncias
 Observação: Para o calculo da área, use a formula: ```lado x altura```, onde lado e altura são iguais.
 
 Crie um arquivo index.php; calcule e exiba as áreas do Quadrado, Círculo e Retângulo
+
+# :eight: Grupo 8 [nomes]
+
+
+Situação
+--------|
+:-1:
+
+Crie uma classe ```Contato``` que possui dois atributos:
+1. nome
+2. email
+
+Crie os ```getters``` e ```setters``` para os atributos
+
+Crie outra classe chamada ```Agenda```, que possui um atributo
+
+1. contatos
+
+A classe ```Agenda``` deve conter um método para adicionar um novo contato em uma posição vazia do array,
+outro método para buscar um contato (retorna uma instância de Contato) através do nome e, por fim,
+um método para excluir um contato através do nome.
