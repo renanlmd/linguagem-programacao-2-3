@@ -10,7 +10,7 @@ Status | Descrição
 :tada: | Muito bom
 :sunglasses: | Top
 
-# :one: Grupo 1 - [nomes]
+# :one: Grupo 1 - [Renan, Milton, Pablo]
 
 Situação
 --------|
