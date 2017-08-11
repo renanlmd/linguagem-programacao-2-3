@@ -42,17 +42,31 @@ O convite já foi enviado para:
 
 Usuário | Situação
 ------- | --------
-https://github.com/RRodrigoRamos | confirmação pendente no email
+https://github.com/RRodrigoRamos | :+1:
 https://github.com/renanlmd | OK :+1:
 https://github.com/alexclei | OK :+1:
-https://github.com/erikagato | confirmação pendente no email
-https://github.com/MatheusSerra | confirmação pendente no email
-https://github.com/dutraweslley | confirmaço pendente no email
+https://github.com/erikagato | OK :+1:
+https://github.com/MatheusSerra | OK :+1:
+https://github.com/AmericoRodrigues | OK :+1:
+https://github.com/wevertonrego | OK :+1:
+https://github.com/dutraweslley | OK :+1:
 https://github.com/CodEw47 | OK :+1:
+https://github.com/zyrott | OK :+1:
 https://github.com/joasribeiro | OK :+1:
+https://github.com/MauricioSilv | OK :+1:
+https://github.com/christianbarbosa | OK :+1:
 https://github.com/VitorHugoSilva | OK :+1:
+https://github.com/Andersonpinheirocruz | OK :+1:
+https://github.com/ErisonSantos | OK :+1:
 https://github.com/gehnobre18 | OK :+1:
+https://github.com/joaovc | Pendente
+https://github.com/BraianPetreck | Pendente
+https://github.com/janaina19 | Pendente
+https://github.com/CleudayanneBarbosa | Pendente
+https://github.com/Everpss12 | Pendente
+
 ## Material de Apoio
+  - http://br.phptherightway.com/
   - https://www.dropbox.com/s/pd880jagfw982j7/Controle%20de%20Vers%C3%A3o%20de%20Software%20com%20Git.pdf?dl=0
 ## FAQ ( Dúvidas )
   - Whatsapp: 96991424429 ( Professor Paulo )
