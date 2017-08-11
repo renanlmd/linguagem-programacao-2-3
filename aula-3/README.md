@@ -35,7 +35,7 @@ O arquivo index.php deve:
 2. Ligar o objeto $lamp1 e desligar o objeto $lamp2.
 3. Usar o método observa() para mostrar se os objetos lamp1 e lamp2 estão “ligados” ou “desligados”.
 
-# :three: Grupo 3 - [nomes]
+# :three: Grupo 3 - [Rodrigo, Maurício, Everton]
 Crie uma classe chamada ```Fatura``` que possa ser utilizado por uma loja de suprimentos de informática para representar uma fatura de um item vendido na loja.
 Uma fatura deve incluir as seguintes informações como atributos:
 1. o número do item faturado,
