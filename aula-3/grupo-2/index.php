@@ -1,5 +1,5 @@
 <?php
-	require 'lampada.php';
+	require 'Lampada.php';
 
 	$lampada[] = new Lampada(false);
 	$lampada[] = new Lampada(true);
