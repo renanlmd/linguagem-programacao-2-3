@@ -145,7 +145,7 @@ Utilizando o conceito de herança crie uma classe chamada **CalculadoraCientific
 Crie um objeto **CalculadoraCientifica** e teste os métodos:
 1. raizQuadrada(9)
 
-# :seven: Grupo 7 - [nomes]
+# :seven: Grupo 7 - [Matheus, Carlos Eduardo, Leandro]
 
 Situação
 --------|
