@@ -44,7 +44,7 @@ Crie um arquivo index.php que faça:
 8. Alterar o nome do dono
 9. Criar a segunda conta e transferir 300
 
-# :two: Grupo 2 - [nomes]
+# :two: Grupo 2 - [Anderson, Alex, Weslley]
 
 Situação
 --------|
