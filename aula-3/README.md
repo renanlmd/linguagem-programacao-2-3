@@ -48,7 +48,7 @@ Crie um arquivo index.php que faça:
 
 Situação
 --------|
-:-1:
+:tada:
 
 Implemente uma classe Lampada com atributo:
 
