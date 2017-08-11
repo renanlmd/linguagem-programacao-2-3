@@ -4,6 +4,7 @@ Status | Descrição
 ------- | --------
 :-1: | Não fez até agora
 :hankey: | Fez com ``` <br/> ```
+:confounded: | Fez com ``` ?> ```
 :neutral_face: | Pode melhorar...
 :frowning: | Gambiarra detected
 :tada: | Muito bom
