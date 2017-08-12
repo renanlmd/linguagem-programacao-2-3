@@ -1,30 +1,25 @@
 <?php 
 
-class contato
-{
-	protected $nome;
-	protected $email;
+class Contato extends Agenda{
 
 	public function __construct($nome, $email)
 	{
 		$this->nome = $nome;
 		$this->email= $email;
 	}
-
-
+	
 	public function GetNome(){
-		return this->nome;
-		//nao entendi oque faz isso.
+		return $this->nome;
 	}
 
 	public function SetNome($nome){
-		return this->nome = $nome;
+		return $this->nome = $nome;
 	}
 	public function GetEmail(){
-		return this->email;
+		return $this->email;
 	}
 	public function setemail($email){
-		return this->email = $email;
+		return $this->email = $email;
 	}
 
 }

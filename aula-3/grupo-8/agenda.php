@@ -1,23 +1,17 @@
 <?php
 
-	require"contato.php";
+	
 
 	class Agenda{
+		
+		protected $nome;
+		protected $email;
 
-			protected $contatos;
-
-
-			function Addcontato(){
-
-
-			}
-			function BuscarContato(){
-
-
-			}
-			function ExcluirContato(){
-
-			}
+		public function novo_contato{
+			return $this->nome = $nome;
+			return $this->email= $email;
+		}
 	}
 
+}
 ?>
