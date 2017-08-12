@@ -178,7 +178,7 @@ Crie um arquivo index.php; calcule e exiba as áreas do Quadrado, Círculo e Ret
 
 Situação
 --------|
-:-1:
+:confounded: :neutral_face:
 
 Crie uma classe ```Contato``` que possui dois atributos:
 1. nome
