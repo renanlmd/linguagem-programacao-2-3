@@ -173,7 +173,7 @@ Observação: Para o calculo da área, use a formula: ```lado x altura```, onde 
 
 Crie um arquivo index.php; calcule e exiba as áreas do Quadrado, Círculo e Retângulo
 
-# :eight: Grupo 8 [nomes]
+# :eight: Grupo 8 [Joás, joão vitor, Erison]
 
 
 Situação
