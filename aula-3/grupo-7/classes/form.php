@@ -6,15 +6,13 @@ class Form
 	private $resultado;
 	public function calcularArea(){
 
-
 	}
 
 }
 
 class Retangulo extends Form
 {
-
- 	private $largura;
+	private $largura;
  	private $altura;
  	
  	public function __construct($altura,$largura){
