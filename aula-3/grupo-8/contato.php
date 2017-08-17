@@ -1,27 +1,28 @@
-<?php 
+<?php
+
+include("agenda.php");
 
 class Contato extends Agenda{
 
-	public function __construct($nome, $email)
-	{
-		$this->nome = $nome;
-		$this->email= $email;
-	}
-	
-	public function GetNome(){
-		return $this->nome;
+	protected $nome;
+	protected $email;
+
+	public function __construct($n,$e){
+		$this->nome = $n;
+		$this->email = $e;
 	}
 
-	public function SetNome($nome){
-		return $this->nome = $nome;
+	public function getNome(){
+		return $this->nome;
 	}
-	public function GetEmail(){
+	public function getEmail(){
 		return $this->email;
 	}
-	public function setemail($email){
-		return $this->email = $email;
+	public function setNome($n){
+		$this->nome = $n;
+	}
+	public function setEmail($e){
+		$this->email = $e;
 	}
 
 }
-
-?>
