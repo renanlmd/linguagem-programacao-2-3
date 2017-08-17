@@ -123,7 +123,7 @@ Considere que a data deve ser formatada mostrando o dia, o mês e o ano separado
 
 Situação
 --------|
-:-1:
+:sunglasses:
 
 Crie uma classe calculadora. Esta classe deve implementar as
 operações básicas:
