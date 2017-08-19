@@ -14,7 +14,7 @@
 			foreach ($this->contatos as $k => $v) {
 				if (strtoupper($n) == strtoupper($v[0])){
 						#$r = "\nINDICE: [$k] | NOME: [".$v[0]."] | EMAIL: [".$v[1]."]\n";
-						return $this->contato[$k] = [$v[0],$v[1]];
+						return $this->contato[$k] = $v[0];
 				}
 			}
 			if ($n != $v[0]) {
@@ -24,14 +24,17 @@
 
 		// APAGANDO UM CONTATO PELO INDICE DO ARRAY PRINCIPAL
 		public function apagacontato($n){
-			if (isset($n)) {
+			$nome = strtoupper($n);
+			if (isset($nome)) {
 				foreach ($this->contatos as $k => $v) {
-					if ($n == $v[0]) {
+					if ($nome == strtoupper($v[0])) {
+						@$en = strtoupper($v[0]);
 						unset($this->contatos[$k]);
 					}
 				}
-			}else {
-				echo "\nFaça a busca para poder apagar um contatos!\n";
+				if ($nome != @$en) {
+					return $r = "Você não pode apagar um contato que não existe!\n";
+				}
 			}
 		}
 

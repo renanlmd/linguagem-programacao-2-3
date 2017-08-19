@@ -1,6 +1,6 @@
 <?php
 
-include("agenda.php");
+include("agenda.php"); 
 
 class Contato extends Agenda{
 

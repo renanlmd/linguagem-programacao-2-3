@@ -4,8 +4,10 @@
 
 	$agenda = new Agenda();
 
-	$contato1 = new Contato("João","joaovcsantosap@gmail.com");
+	$contato1 = new Contato("Joao","joaovcsantosap@gmail.com");
+	$contato2 = new Contato("Erison","erisonsantos@gmail.com");
 	$contato2 = new Contato("Erison","erisonsantos111@gmail.com");
+
 	$contato3 = new Contato("Joas","joasribeiro@gmail.com");
 
 	$n1 = $contato1->getNome();
@@ -21,16 +23,20 @@
 	$agenda->novoContato($n2, $e2);
 	$agenda->novoContato($n3, $e3);
 
-	$busca = $agenda->buscaContato("fre");
 
-	#$apaga = $agenda->apagaContato($busca);
+	$busca = $agenda->buscaContato("joao");
 
+	$apaga = $agenda->apagaContato($busca);
+
+	#$apaga = $agenda->apagaContato("joas");
+
+	// AREA DE EXIBIÇÃO
 	var_dump($agenda);
-	echo "____________________________________________________";
+	echo "____________________________________________________\n";
 	var_dump($contato1);
-	echo "____________________________________________________";
+	echo "____________________________________________________\n";
 	var_dump($contato2);
-	echo "____________________________________________________";
+	echo "____________________________________________________\n";
 	var_dump($contato3);
 
 	if (@$busca) {
@@ -41,6 +47,10 @@
 		}else {
 			echo $busca;
 		}
+	}
+
+	if (@$apaga) {
+		echo $apaga;
 	}elseif (@$apaga) {
 
 	}
