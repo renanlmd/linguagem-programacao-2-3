@@ -1,8 +1,8 @@
 <?php
 
 
-require  '/Conta.php';
-require  '/ContaCorrente.php';
+require  __DIR__ ."/Conta.php";
+require __DIR__ ."/ContaCorrente.php";
 
 $contaCorrente = new ContaCorrente();
 $conta = new Conta();
