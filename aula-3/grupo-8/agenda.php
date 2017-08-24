@@ -18,7 +18,7 @@
 				}
 			}
 			if ($n != $v[0]) {
-				return $r = "Contato não existe!\n";
+				return $r = "Contato não existe!\n"; 
 			}
 		}
 

@@ -26,7 +26,7 @@
 
 	$busca = $agenda->buscaContato("joao");
 
-	$apaga = $agenda->apagaContato($busca);
+	$apaga = $agenda->apagaContato($busca); 
 
 	#$apaga = $agenda->apagaContato("joas");
 
