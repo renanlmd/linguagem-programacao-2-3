@@ -37,6 +37,7 @@ class Conan {
     public $habilidade = 'lutador';
 }
 ```
+e
 
 ```php
 
@@ -64,8 +65,9 @@ class Conan {
     public $habilidade = 'lutador';
 }
 ```
+e
 
-```
+```php
 <?php
 
 namespace Comediante;
@@ -143,3 +145,9 @@ $conan = new Cimmerian();
 
 ```
 (A propósito, Cimmerian (cimério), é um dos apelidos de Conan, o Bárbaro.)
+
+Por enquanto, é só.
+
+Se possível, leiam o texto na íntegra.
+
+https://www.ibm.com/developerworks/br/library/os-php-5.3namespaces/index.html
