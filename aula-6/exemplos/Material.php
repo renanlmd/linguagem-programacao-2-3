@@ -1,11 +1,13 @@
 <?php
 
-class Material
+abstract class Material
 {
 	protected $descricao;
 	protected $tipo;
 	protected $patrimonio;
 	protected $estado;
+
+	public abstract function getInformacoesDoMaterial();
 
 	public function setDescricao($descricao)
 	{

@@ -31,9 +31,11 @@ class Funcionario
 	{
 		$listaMateriais = $professor->getListaMateriais();
 
-		foreach ($listaMateriais as $material) {
+		foreach ($listaMateriais as $mat) {
 			if ($material->getTipo() == 'DATASHOW') {
-				return false;
+				if ($mat->getTipo() == 'DATASHOW') {
+					return false;
+				}
 			}
 		}
 
