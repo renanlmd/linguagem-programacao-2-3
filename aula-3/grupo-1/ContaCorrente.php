@@ -3,7 +3,7 @@
 
 class ContaCorrente extends Conta
 {
-    public function consultarSaldo()
+    public function getConsultarSaldo()
     {
         return $this->saldo;
     }

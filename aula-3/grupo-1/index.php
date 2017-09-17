@@ -1,36 +1,36 @@
 <?php
 
 
+require __DIR__ ."/TipoConta.php";
 require  __DIR__ ."/Conta.php";
 require __DIR__ ."/ContaCorrente.php";
 
-$contaCorrente = new ContaCorrente();
-$conta = new Conta();
+$conta = new Conta;
+$contaCorrente = new ContaCorrente;
 
-$valorDeposito = 10000;
-
-
-
-echo "\nProprietario da conta: ". $conta->proprietarioConta(). "\n";
-echo "Saldo: " . $contaCorrente->consultarSaldo() . "\n\n\n";
-
-
-
-echo "Valor do deposito: ". number_format($valorDeposito, 3, ',', '.'). "\n";
-$contaCorrente->deposito($valorDeposito);
-
-
-echo "Saldo atual: " . number_format($contaCorrente->consultarSaldo(), 3, ',', '.') . "\n";
-
-$valorSaque = 500000;
-$contaCorrente->sacar($valorSaque);
-
-echo "\n\nValor do saque: ". $valorSaque."\n";
-
-
-echo "Resultado do saque: ". $contaCorrente->consultarSaldo() . "\n";
+$conta->setProprietarioConta("Renan de Almeida");
+$conta->setNumeroConta("00009537");
+$conta->setTipoConta("Conta Poupança");
+echo "\nProprietario da conta: ". $conta->getProprietarioConta(). "\n";
+echo "\nNumero da conta: ". $conta->getNumeroConta();
+echo "\nTipo de Conta: ". $conta->getTipoConta(). "\n";
+echo "Saldo: " . $conta->getConsultarSaldo() . "\n\n\n";
 
 
 
+echo "Valor do deposito: ". number_format(10000, 3, ',', '.'). "\n";
+$conta->Deposito(10000);
 
-echo "Saldo atual: " . $contaCorrente->consultarSaldo() . "\n";
+
+echo "\nSaldo atual: " . number_format($conta->getConsultarSaldo(), 3, ',', '.') . "\n";
+
+$valorSaque = 20000;
+$conta->Sacar($valorSaque);
+
+echo "\n\nValor do saque: ". number_format($valorSaque, 3, ',', '.')."\n";
+
+
+echo "Resultado do saque: ". number_format($conta->getConsultarSaldo(), 3, ',', '.') . "\n";
+
+
+echo "Saldo atual: " . number_format($conta->getConsultarSaldo(), 3, ',', '.') . "\n";
