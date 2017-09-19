@@ -27,6 +27,7 @@
  		echo $this->resultado;
   	}
  }
+ 
  class Quadrado	 extends Retangulo{
   	public function __construct($lado){
   		$this->largura=$lado;
