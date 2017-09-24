@@ -1,0 +1,12 @@
+{
+    "name": "zyrott/aula",
+    "authors": [
+        {
+            "name": "Paulo Moura",
+            "email": "paulomoura.94@hotmail.com"
+        }
+    ],
+    "require": {
+        "coduo/php-humanizer": "^2.0"
+    }
+}
