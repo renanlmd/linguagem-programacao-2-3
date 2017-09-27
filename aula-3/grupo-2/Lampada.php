@@ -1,17 +1,35 @@
 <?php
 
-	Class Lampada
+	Class Lampada extends Energia implements iLampada
 	{
 		protected $ligada;
 
 		public function __construct($ligada)
 		{
-			$this->ligada = $ligada;
+			if (parent::WOLT == 127)
+			{
+				$this->ligada = $ligada;
+				return true;
+			}
+			else
+			{
+				$this->ligada = false;
+				return false;
+			}
 		}
 
 		public function setLiga()
 		{
-			$this->ligada = true;
+			if (parent::WOLT == 127)
+			{
+				$this->ligada = true;
+				return true;
+			}
+			else
+			{
+				$this->ligada = false;
+				return false;
+			}
 		}
 
 		public function setDesliga()
