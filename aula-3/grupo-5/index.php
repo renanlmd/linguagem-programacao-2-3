@@ -1,5 +1,5 @@
 <?php 
-require "classes/data.php";
+require __DIR__ ."/classes/data.php";
 $data= new Data('16/10/221997');
 echo "$data";
 
