@@ -1,56 +1,59 @@
 <?php
 
-	include("contato.php");
+  include_once("interfaceAgenda.php");
+  include_once("agenda.php");
+  include_once("contato.php");
 
-	$agenda = new Agenda();
+  use Grupo_8\Aula3\Agenda as Agenda;
+  use Grupo_8\Aula3\Contato as Contato;
 
-	$contato1 = new Contato("Joao","joaovcsantosap@gmail.com");
-	$contato2 = new Contato("Erison","erisonsantos@gmail.com");
-	$contato2 = new Contato("Erison","erisonsantos111@gmail.com");
+  $agenda = new Agenda();
 
-	$contato3 = new Contato("Joas","joasribeiro@gmail.com");
+  //  Contato 1
+  $c1 = new Contato("Joao Victor","joaovcsantosap@gmail.com");
+  $n1 = $c1->getNome();
+  $e1 = $c1->getEmail();
+  //  Contato 2
+  $c2 = new Contato("Erison Santos","erisonsantosap@gmail.com");
+  $n2 = $c2->getNome();
+  $e2 = $c2->getEmail();
+  //  Contato 3
+  $c3 = new Contato("Joas Ribeiro","joasribeiroap@gmail.com");
+  $n3 = $c3->getNome();
+  $e3 = $c3->getEmail();
 
-	$n1 = $contato1->getNome();
-	$e1 = $contato1->getEmail();
+  //  Adicionado Contatos
+  $agenda->add($n1,$e1);
+  $agenda->add($n2,$e2);
+  $agenda->add($n3,$e3);
 
-	$n2 = $contato2->getNome();
-	$e2 = $contato2->getEmail();
+  //  Buscando um contato
+  $busca = $agenda->busca($n2);
 
-	$n3 = $contato3->getNome();
-	$e3 = $contato3->getEmail();
+  #print_r($c1);
+  echo "\n%%%%%%%%%%%%%%%%%%%%%%%%%%//  Agenda Antes  //%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
+  print_r($agenda);
+  echo "\n%%%%%%%%%%%%%%%%%%%%%%%%%//  Buscando um contato  //%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
+  if ($busca)
+  {
+    echo "\nContato:\n Nome-> ".$busca[0]."\n Email-> ".$busca[1]."\n";
+  }
+  else
+  {
+    echo "FALSE\n";
+  }
 
-	$agenda->novoContato($n1, $e1);
-	$agenda->novoContato($n2, $e2);
-	$agenda->novoContato($n3, $e3);
+  //  Removendo um contato
+  $remove = $agenda->remove($n1);
 
-
-	$busca = $agenda->buscaContato("joao");
-
-	$apaga = $agenda->apagaContato($busca); 
-
-	#$apaga = $agenda->apagaContato("joas");
-
-	// AREA DE EXIBIÇÃO
-	var_dump($agenda);
-	echo "____________________________________________________\n";
-	var_dump($contato1);
-	echo "____________________________________________________\n";
-	var_dump($contato2);
-	echo "____________________________________________________\n";
-	var_dump($contato3);
-
-	if (@$busca) {
-		if (is_array($busca)) {
-			echo "\n # RESULTATDO DA BUSCA # \n";
-			echo "\nNome: [".$busca[0]."]\n";
-			echo "\nEmail: [".$busca[1]."]\n";
-		}else {
-			echo $busca;
-		}
-	}
-
-	if (@$apaga) {
-		echo $apaga;
-	}elseif (@$apaga) {
-
-	}
+  echo "\n%%%%%%%%%%%%%%%%%%%%%%%%//  Removendo um contato  //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
+  if ($remove)
+  {
+    echo "\n Contato removido!\n";
+  }
+  else
+  {
+    echo "FALSE\n";
+  }
+  echo "\n%%%%%%%%%%%%%%%%%%%%%%%%%%//  Agenda Dopis  //%%%%%%%%%%%%%%%%%%%%%%%%%%%\n";
+  print_r($agenda);

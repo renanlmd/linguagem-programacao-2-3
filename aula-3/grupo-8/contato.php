@@ -1,28 +1,39 @@
 <?php
+namespace Grupo_8\Aula3;
+/**
+ * As variavei '$n' e '$e' representam respectivamente
+ * os atributos 'nome' e 'email'.
+ */
 
-include("agenda.php");
+class Contato
+{
+    protected $nome;
+    protected $email;
 
-class Contato extends Agenda{
+    public function __construct($n,$e)
+    {
+      $this->nome = $n;
+      $this->email = $e;
+    }
 
-	protected $nome;
-	protected $email;
+    public function getNome()
+    {
+        return $this->nome;
+    }
 
-	public function __construct($n,$e){
-		$this->nome = $n;
-		$this->email = $e;
-	}
+    public function setNome($n)
+    {
+        $this->nome = $n;
+    }
 
-	public function getNome(){
-		return $this->nome;
-	}
-	public function getEmail(){
-		return $this->email;
-	}
-	public function setNome($n){
-		$this->nome = $n;
-	}
-	public function setEmail($e){
-		$this->email = $e;
-	}
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    public function setEmail($e)
+    {
+        $this->nome = $e;
+    }
 
 }
