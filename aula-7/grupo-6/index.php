@@ -49,7 +49,7 @@ $num=30;
 $resultado=$calculadoracientifica->setRaizQuadrada($num);
 echo "Raiz quadrada de ".$num." = ".$calculadoracientifica->getRaizQuadrada() ."\n\n\n";
 
-/*
+
 
 #--------------------------------------
 
@@ -78,5 +78,5 @@ echo "Raiz quadrada de ".$num." = ".$calculadoracientifica->getRaizQuadrada() ."
 
 	echo "\nArea da figura: ". $triangulo->getArea();
 	echo "\nPerimetro da figura: ". $triangulo->getPerimetro();
-*/
+
 	?>
