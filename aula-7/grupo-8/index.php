@@ -14,16 +14,16 @@ $n = $q1->getNomeFigura();
 $a = $q1->getArea();
 $p = $q1->getPerimetro();
 print_r($q1);
-echo "\n Nome da figura: $n\n";
+echo "\n\n Nome da figura: $n\n";
 echo "\n Area da figura: $a\n";
-echo "\n Perimetro da figura: $p\n";
+echo "\n Perimetro da figura: $p\n\n";
 
 $t1 = new T();
-$t1->setLadoA(5);
-$t1->setLadoB(20);
-$t1->setLadoC(34);
-$t1->setAltura(2);
-$t1->setBase(3);
+$t1->setLadoA(15);
+$t1->setLadoB(15);
+$t1->setLadoC(15);
+$t1->setAltura(10);
+$t1->setBase(15);
 
 $n = $t1->getNomeFigura();
 $a = $t1->getArea();
