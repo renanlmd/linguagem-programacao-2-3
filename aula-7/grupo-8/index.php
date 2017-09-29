@@ -1,5 +1,5 @@
 <?php
-
+// Grupo 08 Erison, Joas, João.
 require __DIR__."/interfaceFG.php";
 require __DIR__."/quadrado.php";
 require __DIR__."/triangulo.php";

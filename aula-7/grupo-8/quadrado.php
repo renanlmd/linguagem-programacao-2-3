@@ -1,4 +1,5 @@
 <?php
+// Grupo 08 Erison, Joas, João.
 namespace Grupo_08\Q2Aula7;
 
 class Quadrado implements FiguraGeometrica
