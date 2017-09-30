@@ -1,12 +1,6 @@
-<?php
+<?php 
+require_once __DIR__."/InterfaceFatura.php";
+ require_once __DIR__."/Fatura.php";
 
-require __DIR__ . '/fatura.php';
-
-
-
-$fatura = new fatura;
-
-$fatura->getTotal(0);
-var_dump($fatura->getTotal();
-
-	
+$fatura = new Fatura(23,"mouse",10.00,2);
+ var_dump($fatura->getTotalFatura());
