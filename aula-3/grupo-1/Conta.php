@@ -1,27 +1,51 @@
 <?php
 
-class Conta
+class Conta implements TipoConta
 {
-       public $saldo = 0;
-       public  $limiteSaque = 1000;
+    protected $tipoConta;
+    protected $saldo = 0;
+    protected $proprietarioConta;
+    protected $numeroConta;
+    public  $limiteSaque = 1000;
 
 
-       public function proprietarioConta(){
-           $nome = "Renan Almeida";
-           return $nome;
+    public function setTipoConta($tipo){
+      $this->tipoConta = $tipo;
     }
 
-    public function deposito($valor)
+    public function getTipoConta(){
+      return $this->tipoConta;
+    }
+
+    public function setProprietarioConta($dono){
+      $this->proprietarioConta = $dono;
+    }
+    public function getProprietarioConta(){
+      return $this->proprietarioConta;
+    }
+
+    public function setNumeroConta($numero){
+      $this->numeroConta = $numero;
+    }
+    public function getNumeroConta(){
+      return $this->numeroConta;
+    }
+
+    public function Deposito($valor)
     {
-        return $this->saldo += $valor;
+      return $this->saldo += $valor;
     }
-    public function sacar($valor){
+
+    public function getConsultarSaldo(){
+      return $this->saldo;
+    }
+    public function Sacar($valor){
 
       if ($this->saldo > $valor) {
-              return $this->saldo -= $valor;
+        return $this->saldo -= $valor;
       }
       else{
-              return false;
+        return false;
       }
     }
 
