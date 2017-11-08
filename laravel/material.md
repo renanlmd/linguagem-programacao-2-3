@@ -277,11 +277,11 @@ Após criar a migração, basta executar:
 
 Para atualizar a base de dados com a nova tabela.
 
-```php php artisan reset```
+```php artisan migrate:reset```
 
 Para destruir as tabelas!
 
-```php php artisan migrate:refresh```
+```php artisan migrate:refresh```
 
 Para destruir as tabelas, e em seguida criar. ( Apenas um atalho que executa o reset e o migrate em apenas um comando )
 
