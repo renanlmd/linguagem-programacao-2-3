@@ -2,10 +2,19 @@
 
 
 @section('conteudo')
-  <a href="/cria-usuario" class="btn btn-success">
-    <i class="fa fa-plus-circle"></i>
-    Criar um Usuário
-  </a>
+  <div class="panel">
+    <div class="panel-heading">
+      Pesquisa
+    </div>
+    <div class="panel-body">
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" name="pesquisa"/>
+        </div>
+        <button type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
   <table class="table">
     <thead>
       <tr>
@@ -38,4 +47,8 @@
       @endforeach
     </tbody>
   </table>
+  <a href="/cria-usuario" class="btn btn-success">
+    <i class="fa fa-plus-circle"></i>
+    Criar um Usuário
+  </a>
 @stop

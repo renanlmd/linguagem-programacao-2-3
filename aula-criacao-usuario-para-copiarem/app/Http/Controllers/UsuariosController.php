@@ -12,12 +12,20 @@ class UsuariosController extends Controller
     return view('usuarios.criar');
   }
 
-  public function listaUsuario()
+  public function listaUsuario(Request $requisicao)
   {
-    $usuarios = User::all();
+    $usuarios = User::select('*');
+
+    if($requisicao->has('pesquisa')) {
+      $usuarios->where('name', 'like', '%' . $requisicao->get('pesquisa') . '%');
+    }
+
+    $usuarios->orderBy('name', 'asc');
+
+    $listaDeUsuarios = $usuarios->get();
 
     return view('usuarios.lista', [
-      'usuarios' => $usuarios
+      'usuarios' => $listaDeUsuarios
     ]);
   }
 

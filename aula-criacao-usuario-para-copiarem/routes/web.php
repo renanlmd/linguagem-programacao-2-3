@@ -16,13 +16,13 @@
 // });
 
 
-// Route::get('lista-usuarios', 'UsuariosController@listaUsuario');
-// Route::get('cria-usuario', 'UsuariosController@formularioUsuario');
-// Route::post('salva-usuario', 'UsuariosController@salvarUsuario');
-// Route::put('altera-usuario/{id}', 'UsuariosController@alteraUsuario');
-// Route::get('editar-usuario/{id}', 'UsuariosController@editarUsuario');
-// Route::delete('deletar-usuario/{id}', 'UsuariosController@deletarUsuario');
-// // Auth::routes();
+Route::get('lista-usuarios', 'UsuariosController@listaUsuario');
+Route::get('cria-usuario', 'UsuariosController@formularioUsuario');
+Route::post('salva-usuario', 'UsuariosController@salvarUsuario');
+Route::put('altera-usuario/{id}', 'UsuariosController@alteraUsuario');
+Route::get('editar-usuario/{id}', 'UsuariosController@editarUsuario');
+Route::delete('deletar-usuario/{id}', 'UsuariosController@deletarUsuario');
+// Auth::routes();
 
 // // Route::get('/home', 'HomeController@index')->name('home');
 
